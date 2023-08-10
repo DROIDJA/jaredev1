@@ -1,0 +1,74 @@
+
+*{
+    margin: 0;
+    }
+    body{
+    background-color: rgb(238, 111, 217);
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(tree.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    }
+    .header{
+    position: relative;
+    width: 100%;
+    background-color: rgb(133, 48, 9);
+    padding: 20px;
+    display: flex;
+    
+    }
+    li a{
+    margin:0px 10px;
+    text-decoration: none;
+    color: rgb(80, 219, 238);
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    
+    }
+    .nav-header{
+    list-style: none;
+    display: flex;
+    
+    }
+    form{
+    background-color: rgb(80, 219, 238);
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    font-size: 22px;
+    }
+    .form-control{
+    text-align: left;
+    margin-bottom: 30px;
+    
+    
+    }
+    .form-control label{
+    display: block;
+    margin-bottom: 5px;
+    
+    }
+    .form-control input,
+    .form-control select{
+    border: 2px solid blueviolet;
+    border-radius: 8px;
+    padding: 10px;
+    width: 85%;
+    font-style: italic;
+    
+    }
+    .form-control input[type="radio"]{
+    display: inline;
+    width: auto;
+    }
+    h1{
+    color: black;
+    }
+    p.groove{
+    border-style: groove;
+    background-color: azure;
+    }
+    
